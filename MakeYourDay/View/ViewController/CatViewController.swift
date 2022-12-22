@@ -17,10 +17,10 @@ class CatViewController: UIViewController {
     }()
     
     var image = UIImageView()
-    var factlabel = UILabel()
+    var factLabel = UILabel()
     var theCatFact: String = "" {
         didSet {
-            self.factlabel.text = theCatFact
+                factLabel.text = theCatFact
         }
     }
     
@@ -40,7 +40,7 @@ class CatViewController: UIViewController {
     func setupUI() {
         view.addSubview(topTitle)
         view.addSubview(image)
-        view.addSubview(factlabel)
+        view.addSubview(factLabel)
         topTitle.anchor(top: view.topAnchor, paddingTop: 80)
         topTitle.centerX(inView: view)
         image.center(inView: view)
@@ -48,9 +48,9 @@ class CatViewController: UIViewController {
         image.contentMode = .scaleToFill
         image.layer.cornerRadius = 20
         
-        factlabel.centerX(inView: image)
-        factlabel.numberOfLines = 0
-        factlabel.anchor(top: image.bottomAnchor, paddingTop: 16, width: 300)
+        factLabel.centerX(inView: image)
+        factLabel.numberOfLines = 0
+        factLabel.anchor(top: image.bottomAnchor, paddingTop: 16, width: 300)
     }
     
     func setupData() {
