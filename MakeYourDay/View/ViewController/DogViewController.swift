@@ -16,16 +16,46 @@ class DogViewController: UIViewController {
         return lb
     }()
     
+    var dogFact = DogFact()
+    var dogPic = DogPic()
     
     override func viewDidLoad() {
         view.backgroundColor = .systemMint
         view.addSubview(topTitle)
+        setupData()
         setupUI()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+//        setupData()
     }
     
     func setupUI() {
         topTitle.anchor(top: view.topAnchor, paddingTop: 80)
         topTitle.centerX(inView: view)
     }
+    
+    func setupData() {
+        DogApiManager.shared.fetchDogFact { result in
+            switch result {
+            case .success(let data):
+                self.dogFact = data
+                print(self.dogFact)
+            case .failure(let error):
+                print("==============\(error)")
+            }
+        }
+        
+        DogApiManager.shared.fetchDogPic { result in
+            switch result {
+            case .success(let data):
+                self.dogPic = data
+                print(self.dogPic)
+            case .failure(let error):
+                print(error)
+            }
+        }
+    }
+    
 }
 

@@ -16,25 +16,39 @@ class CatViewController: UIViewController {
         return lb
     }()
     
+    var image = UIImageView()
+    
     var catFactData = CatFact()
     var catPicData = [CatPic]()
     
     
     override func viewDidLoad() {
         view.backgroundColor = .lightGray
-        view.addSubview(topTitle)
+//        setupUI()
+//        setupData()
+//        setupPicData()
+    }
+    override func viewWillAppear(_ animated: Bool) {
         setupUI()
         setupData()
         setupPicData()
+
     }
+
     
     func setupUI() {
+        view.addSubview(topTitle)
+        view.addSubview(image)
         topTitle.anchor(top: view.topAnchor, paddingTop: 80)
         topTitle.centerX(inView: view)
+        image.center(inView: view)
+        image.anchor(width: 300, height: 250)
+        image.contentMode = .scaleAspectFit
+        image.layer.cornerRadius = 20
     }
     
     func setupData() {
-        ApiManager.shared.fetchCatFactData { result in
+        CatApiManager.shared.fetchCatFactData { result in
             switch result {
             case .failure:
                 print("Error")
@@ -46,15 +60,17 @@ class CatViewController: UIViewController {
     }
     
     func setupPicData() {
-        ApiManager.shared.fetchCatPic { result in
+        CatApiManager.shared.fetchCatPic { result in
             switch result {
             case .success(let data):
                 self.catPicData = data
-                print(self.catPicData)
+                guard let imageUrl = URL(string: self.catPicData[0].url) else { return }
+                self.image.load(url: imageUrl)
             case .failure:
                 print("Error")
             }
         }
     }
+    
 }
 

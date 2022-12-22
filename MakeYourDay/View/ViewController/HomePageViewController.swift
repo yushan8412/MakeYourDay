@@ -22,25 +22,21 @@ class HomePageViewController: UIViewController {
     
     // Action
     @IBAction func tapCatBtn(_ sender: Any) {
-        print("tapped")
         let vc = CatViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func tapDogBtn(_ sender: Any) {
-        print("tapped")
         let vc = DogViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func tapMissionBtn(_ sender: Any) {
-        print("tapped")
         let vc = MissionViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func tapJokeBtn(_ sender: Any) {
-        print("tapped")
         let vc = JokeViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
@@ -72,7 +68,7 @@ class HomePageViewController: UIViewController {
     }
 }
     
-// MARK: - 本來想要用 code 寫
+//    本來想要用 code 寫 但結果卡在 xib 檔的content view 需要 disable
 //    func setupUI() {
 //        view.addSubview(topView)
 //        view.addSubview(topLabel)

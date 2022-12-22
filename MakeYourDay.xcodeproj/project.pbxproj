@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84208D402953F786006B36F8 /* DogDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84208D3F2953F786006B36F8 /* DogDataModel.swift */; };
+		84208D422953F79B006B36F8 /* DogApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84208D412953F79B006B36F8 /* DogApiManager.swift */; };
+		84208D4429540075006B36F8 /* MissionApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84208D4329540075006B36F8 /* MissionApiManager.swift */; };
+		84208D4629540085006B36F8 /* JokeApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84208D4529540085006B36F8 /* JokeApiManager.swift */; };
+		84208D4829540099006B36F8 /* JokeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84208D4729540099006B36F8 /* JokeDataModel.swift */; };
+		84208D4A295400B2006B36F8 /* MissionDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84208D49295400B2006B36F8 /* MissionDataModel.swift */; };
+		84208D4C295450A4006B36F8 /* ExtensionUIimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84208D4B295450A4006B36F8 /* ExtensionUIimage.swift */; };
 		84501CE02952E0F500FF572B /* CatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84501CDF2952E0F500FF572B /* CatViewController.swift */; };
 		84501CE22952E25A00FF572B /* DogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84501CE12952E25A00FF572B /* DogViewController.swift */; };
 		84501CE42952E33B00FF572B /* MissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84501CE32952E33B00FF572B /* MissionViewController.swift */; };
 		84501CE62952E34E00FF572B /* JokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84501CE52952E34E00FF572B /* JokeViewController.swift */; };
-		84501CE82952EB5400FF572B /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84501CE72952EB5400FF572B /* DataModel.swift */; };
-		84501CEA2952EC6900FF572B /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84501CE92952EC6900FF572B /* ApiManager.swift */; };
+		84501CE82952EB5400FF572B /* CatDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84501CE72952EB5400FF572B /* CatDataModel.swift */; };
+		84501CEA2952EC6900FF572B /* CatApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84501CE92952EC6900FF572B /* CatApiManager.swift */; };
 		84D6A66029516A1800F50E01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6A65F29516A1800F50E01 /* AppDelegate.swift */; };
 		84D6A66229516A1800F50E01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6A66129516A1800F50E01 /* SceneDelegate.swift */; };
 		84D6A66429516A1800F50E01 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6A66329516A1800F50E01 /* HomePageViewController.swift */; };
@@ -48,12 +55,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84208D3F2953F786006B36F8 /* DogDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDataModel.swift; sourceTree = "<group>"; };
+		84208D412953F79B006B36F8 /* DogApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogApiManager.swift; sourceTree = "<group>"; };
+		84208D4329540075006B36F8 /* MissionApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionApiManager.swift; sourceTree = "<group>"; };
+		84208D4529540085006B36F8 /* JokeApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeApiManager.swift; sourceTree = "<group>"; };
+		84208D4729540099006B36F8 /* JokeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeDataModel.swift; sourceTree = "<group>"; };
+		84208D49295400B2006B36F8 /* MissionDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDataModel.swift; sourceTree = "<group>"; };
+		84208D4B295450A4006B36F8 /* ExtensionUIimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIimage.swift; sourceTree = "<group>"; };
 		84501CDF2952E0F500FF572B /* CatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewController.swift; sourceTree = "<group>"; };
 		84501CE12952E25A00FF572B /* DogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewController.swift; sourceTree = "<group>"; };
 		84501CE32952E33B00FF572B /* MissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionViewController.swift; sourceTree = "<group>"; };
 		84501CE52952E34E00FF572B /* JokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewController.swift; sourceTree = "<group>"; };
-		84501CE72952EB5400FF572B /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
-		84501CE92952EC6900FF572B /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		84501CE72952EB5400FF572B /* CatDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDataModel.swift; sourceTree = "<group>"; };
+		84501CE92952EC6900FF572B /* CatApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatApiManager.swift; sourceTree = "<group>"; };
 		84D6A65C29516A1800F50E01 /* MakeYourDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeYourDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D6A65F29516A1800F50E01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D6A66129516A1800F50E01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -179,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				84D6A6922951846800F50E01 /* AnchorExtension.swift */,
+				84208D4B295450A4006B36F8 /* ExtensionUIimage.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -198,7 +213,10 @@
 		84D6A6A12952AA0700F50E01 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				84501CE72952EB5400FF572B /* DataModel.swift */,
+				84501CE72952EB5400FF572B /* CatDataModel.swift */,
+				84208D4729540099006B36F8 /* JokeDataModel.swift */,
+				84208D3F2953F786006B36F8 /* DogDataModel.swift */,
+				84208D49295400B2006B36F8 /* MissionDataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -206,7 +224,10 @@
 		84D6A6A22952AA1000F50E01 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				84501CE92952EC6900FF572B /* ApiManager.swift */,
+				84501CE92952EC6900FF572B /* CatApiManager.swift */,
+				84208D412953F79B006B36F8 /* DogApiManager.swift */,
+				84208D4329540075006B36F8 /* MissionApiManager.swift */,
+				84208D4529540085006B36F8 /* JokeApiManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -344,19 +365,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84208D4829540099006B36F8 /* JokeDataModel.swift in Sources */,
+				84208D402953F786006B36F8 /* DogDataModel.swift in Sources */,
 				84D6A66429516A1800F50E01 /* HomePageViewController.swift in Sources */,
 				84501CE02952E0F500FF572B /* CatViewController.swift in Sources */,
 				84501CE22952E25A00FF572B /* DogViewController.swift in Sources */,
 				84D6A66029516A1800F50E01 /* AppDelegate.swift in Sources */,
+				84208D422953F79B006B36F8 /* DogApiManager.swift in Sources */,
 				84D6A69529518EAC00F50E01 /* MainLButton.swift in Sources */,
-				84501CE82952EB5400FF572B /* DataModel.swift in Sources */,
+				84208D4A295400B2006B36F8 /* MissionDataModel.swift in Sources */,
+				84501CE82952EB5400FF572B /* CatDataModel.swift in Sources */,
 				84D6A66229516A1800F50E01 /* SceneDelegate.swift in Sources */,
+				84208D4429540075006B36F8 /* MissionApiManager.swift in Sources */,
 				84D6A6932951846800F50E01 /* AnchorExtension.swift in Sources */,
-				84501CEA2952EC6900FF572B /* ApiManager.swift in Sources */,
+				84501CEA2952EC6900FF572B /* CatApiManager.swift in Sources */,
 				84D6A69E2952A86200F50E01 /* MainRButton.swift in Sources */,
 				84501CE62952E34E00FF572B /* JokeViewController.swift in Sources */,
+				84208D4629540085006B36F8 /* JokeApiManager.swift in Sources */,
 				84D6A66A29516A1800F50E01 /* MakeYourDay.xcdatamodeld in Sources */,
 				84501CE42952E33B00FF572B /* MissionViewController.swift in Sources */,
+				84208D4C295450A4006B36F8 /* ExtensionUIimage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

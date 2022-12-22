@@ -14,8 +14,8 @@
             filePath = "MakeYourDay/View/ViewController/HomePageViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "unknown"
             landmarkType = "0">
          </BreakpointContent>
@@ -30,10 +30,106 @@
             filePath = "MakeYourDay/View/ViewController/HomePageViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
             landmarkName = "unknown"
             landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A043E641-56A1-428C-A48C-A669DF3C85EC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MakeYourDay/View/ViewController/JokeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "setData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A043E641-56A1-428C-A48C-A669DF3C85EC - 29b34f3d229dbb70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MakeYourDay.JokeViewController.setData() -&gt; ()"
+                  moduleName = "MakeYourDay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/MakeYourDay/MakeYourDay/View/ViewController/JokeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  uuid = "A043E641-56A1-428C-A48C-A669DF3C85EC - 2609ad2e7bc78163"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;MakeYourDay.JokeData, Swift.Error&gt;) -&gt; () in MakeYourDay.JokeViewController.setData() -&gt; ()"
+                  moduleName = "MakeYourDay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/MakeYourDay/MakeYourDay/View/ViewController/JokeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B433137-6D3E-42EC-8897-7A4F1CD69C61"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MakeYourDay/Manager/JokeApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "fetchJokeData(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2B433137-6D3E-42EC-8897-7A4F1CD69C61 - 441b2befb7e0ee79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MakeYourDay.JokeApiManager.fetchJokeData(completion: (Swift.Result&lt;MakeYourDay.JokeData, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MakeYourDay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/MakeYourDay/MakeYourDay/Manager/JokeApiManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "470">
+               </Location>
+               <Location
+                  uuid = "2B433137-6D3E-42EC-8897-7A4F1CD69C61 - 460e9019eb8355d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MakeYourDay.JokeApiManager.fetchJokeData(completion: (Swift.Result&lt;MakeYourDay.JokeData, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MakeYourDay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/MakeYourDay/MakeYourDay/Manager/JokeApiManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "264">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

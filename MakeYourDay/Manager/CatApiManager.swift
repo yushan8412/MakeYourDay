@@ -8,9 +8,9 @@
 import Foundation
 import UIKit
 
-class ApiManager {
+class CatApiManager {
     
-    static let shared = ApiManager()
+    static let shared = CatApiManager()
         
     func fetchCatFactData(completion: @escaping (Result<CatFact, Error>) -> Void) {
         
