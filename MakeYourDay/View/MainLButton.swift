@@ -36,6 +36,9 @@ class MainLButton: UIButton {
         contentView.isUserInteractionEnabled = false
         contentView.frame = self.bounds
         contentView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        contentView.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner]
+        contentView.layer.cornerRadius = 15
+        mainImage.layer.cornerRadius = 15
         self.setTitle("", for: .normal)
         self.mainImage.contentMode = .scaleAspectFill
 

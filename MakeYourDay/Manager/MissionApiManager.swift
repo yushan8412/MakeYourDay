@@ -13,7 +13,8 @@ class MissionApiManager {
     
     func fetchMissionData( completion: @escaping(Result<MissionData, Error>) -> Void) {
         guard let url = URL(string: "https://www.boredapi.com/api/activity") else { return }
-        let request = URLRequest(url: url)
+        var request = URLRequest(url: url)
+        request.httpMethod = "GET"
         
         URLSession.shared.dataTask(with: request) { data, response, error in
             if let httpResponse = response as? HTTPURLResponse {

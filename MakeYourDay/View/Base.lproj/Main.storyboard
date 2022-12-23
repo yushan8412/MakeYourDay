@@ -75,16 +75,34 @@
                                     <constraint firstAttribute="trailing" secondItem="I4M-9x-Anw" secondAttribute="trailing" constant="20" id="xDI-5T-O1b"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cce-76-4ZJ">
+                                <rect key="frame" x="39.999999999999993" y="90" width="66.333333333333314" height="34.333333333333343"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Black" family="Snell Roundhand" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uh4-3t-RcI">
+                                <rect key="frame" x="65" y="149.33333333333334" width="66.333333333333314" height="34.333333333333343"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Black" family="Snell Roundhand" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5l8-kN-fyT" secondAttribute="trailing" id="KNq-s1-wPX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cce-76-4ZJ" secondAttribute="trailing" symbolic="YES" id="Kw3-VK-T2O"/>
                             <constraint firstAttribute="bottom" secondItem="Rxw-cd-KvW" secondAttribute="bottom" id="OFj-v5-Kxb"/>
                             <constraint firstItem="5l8-kN-fyT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="OiG-8Q-XoK"/>
                             <constraint firstItem="5l8-kN-fyT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Tsv-XX-zEQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rxw-cd-KvW" secondAttribute="trailing" id="UqF-hV-NlI"/>
                             <constraint firstItem="Rxw-cd-KvW" firstAttribute="top" secondItem="5l8-kN-fyT" secondAttribute="bottom" constant="-40" id="cd5-bh-U9Q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="uh4-3t-RcI" secondAttribute="trailing" symbolic="YES" id="d4C-ol-Ux2"/>
+                            <constraint firstItem="cce-76-4ZJ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="90" id="eKs-Mr-vW3"/>
+                            <constraint firstItem="uh4-3t-RcI" firstAttribute="top" secondItem="cce-76-4ZJ" secondAttribute="bottom" constant="25" id="raP-lx-6VD"/>
+                            <constraint firstItem="uh4-3t-RcI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="rfo-Bc-ocN"/>
+                            <constraint firstItem="cce-76-4ZJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="wqU-mY-7jx"/>
                             <constraint firstItem="Rxw-cd-KvW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="z9x-y0-ame"/>
                         </constraints>
                     </view>
@@ -97,6 +115,8 @@
                         <outlet property="jokeBtn" destination="n3O-4M-fWT" id="tKp-uF-NVY"/>
                         <outlet property="missionBtn" destination="NVX-Jq-G9n" id="iKf-Go-srh"/>
                         <outlet property="topImage" destination="5l8-kN-fyT" id="qMy-YE-ZU4"/>
+                        <outlet property="toplabel" destination="cce-76-4ZJ" id="bW8-wh-L02"/>
+                        <outlet property="toplabel2" destination="uh4-3t-RcI" id="HY6-Nj-A6X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -19,6 +19,8 @@ class HomePageViewController: UIViewController {
     @IBOutlet weak var dogBtn: MainLButton!
     @IBOutlet weak var missionBtn: MainLButton!
     @IBOutlet weak var jokeBtn: MainLButton!
+    @IBOutlet weak var toplabel: UILabel!
+    @IBOutlet weak var toplabel2: UILabel!
     
     // Action
     @IBAction func tapCatBtn(_ sender: Any) {
@@ -44,6 +46,7 @@ class HomePageViewController: UIViewController {
     // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        bottonBGView.layer.cornerRadius = 30
         setupUI()
     }
     
@@ -64,7 +67,10 @@ class HomePageViewController: UIViewController {
         
         jokeBtn.mainImage.image = UIImage(named: "joke")
         jokeBtn.mainImage.contentMode = .scaleAspectFill
-
+        
+        toplabel.text = "Let Little Things"
+        toplabel2.text = "Makes Your Day Better"
+        
     }
 }
     

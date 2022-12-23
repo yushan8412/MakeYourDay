@@ -33,9 +33,13 @@ class MainRButton: UIButton {
     func initialView(){
         Bundle.main.loadNibNamed("MainRButton", owner: self, options: nil)
         addSubview(contentView)
+        // 需要加入關掉 userInteraction 才可以觸發點擊事件
         contentView.isUserInteractionEnabled = false
         contentView.frame = self.bounds
         contentView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        contentView.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner]
+        mainImage.layer.cornerRadius = 15
+        contentView.layer.cornerRadius = 15
         self.setTitle("", for: .normal)
         self.mainImage.contentMode = .scaleToFill
     }
